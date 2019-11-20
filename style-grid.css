@@ -1,0 +1,29 @@
+
+h1, p {
+    margin: 0 0 1em 0;;
+}
+.site {
+    /*display: grid;*/
+    margin: 0 auto;
+    max-height: 200px;
+}
+
+.page-title, .footer-content {
+    grid-column: 1/ -1;
+    clear: both;
+}
+
+.main-content {
+    float: right;
+    width: 55%;
+   /* height: 60%;*/  
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+.footer-content {
+ grid-row: 3;
+ max-height: 100%;
+}
